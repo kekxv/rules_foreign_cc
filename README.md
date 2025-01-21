@@ -9,15 +9,11 @@ This is **not an officially supported Google product**
 
 ## Documentation
 
-Documentation for all rules and providers are available at: https://bazelbuild.github.io/rules_foreign_cc/
+Documentation for all rules and providers are available at: https://bazel-contrib.github.io/rules_foreign_cc/
 
 ## Bazel versions compatibility
 
-Works with Bazel after 4.2.0.
-
-The following flags are required in Bazel 4.x but not Bazel 5.x or newer:
-
-- `--experimental_enable_aggregating_middleman=False`
+Works with Bazel after 5.4.0.
 
 Note that the rules may be compatible with older versions of Bazel but support may break
 in future changes as these older versions are not tested.
@@ -28,7 +24,7 @@ variable](https://bazel.build/reference/be/make-variables)
 ## News
 
 For more generalized updates, please see [NEWS.md](./NEWS.md) or checkout the
-[release notes](https://github.com/bazelbuild/rules_foreign_cc/releases) of current or previous releases
+[release notes](https://github.com/bazel-contrib/rules_foreign_cc/releases) of current or previous releases
 
 ## Design document
 
